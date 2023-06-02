@@ -13,7 +13,6 @@ header{
        display: grid;
        grid-template-columns: 60% 40%;
        height: 400px;
-
    }
    .container2{
        display: grid;

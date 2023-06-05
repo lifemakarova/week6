@@ -6,17 +6,19 @@ h1{
     font-size: 50px;
 width: 617px;
 height: 114px;
-left: 50px;
+margin-left: 50px;
 }
-.container{
-    width: 1200px;
-    height: 898px;
-}
+
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
 justify-items: center;
 align-items: center;
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+height: auto;
+background-color:#CFD4D8 ;
 }
 .cell{
     height: 524px;
@@ -28,19 +30,14 @@ footer{
     padding: 20px;
     margin: 20px;
 }
-h2{
+
+h2,h4{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     font-size: 26px;
 }
-h4{
-    font-family: 'Roboto', sans-serif;
-    font-weight: lighter;
-    font-size: 17px;
-}
 .container1{
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-
+    display: flex;
+justify-content: center;
+align-items: center;
 }

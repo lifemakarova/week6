@@ -3,11 +3,9 @@ header{
    height: 70px;
    text-align: center;
    }
-   
-   .cell {
-       color: black;
-   text-align: center;
-   padding: 10px;
+   .container{
+    background-color:gray;
+    text-align: center;
    }
    .container1{
        display: grid;
@@ -17,14 +15,42 @@ header{
    .container2{
        display: grid;
        grid-template-columns: 25% 25% 25% 25%;
-       height: 100px;
+       height: 120px;
        align-content: center;
+       background-color:rgb(186, 183, 183);
    }
- 
    .row{
       text-align: center; 
+      background-color: wheat;padding: 10px;width: 200px;
    }
-   .str1{
-   justify-content: center;
-   align-self: center;
+   p{
+    background-color:beige;padding: 10px;width: 100px;
    }
+   .cell1{
+    background-color: rgb(215, 213, 142);
+    text-align: center;
+   }
+   .cell2{
+    background-color:rgb(125, 208, 147);
+    text-align: center;
+   }
+.row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
+}
+.str1{
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+}
+.str2{
+    grid-row: 3 / 4;
+    grid-column: 5 / 6;
+}
+.str3{
+    grid-row: full-start / full-end;
+    grid-column: 3 / 4;
+}
+
+
+
